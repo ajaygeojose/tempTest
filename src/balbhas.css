@@ -1,0 +1,93 @@
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+    .styled:hover {
+        background-color: white;
+        color:black;
+    }
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.footer {
+    padding: 60px;
+    text-align: center;
+    background: bg-light;
+    color: slategrey;
+    font-size: 30px;
+}
+
+.footerRange {
+    width:100%;
+}
+
+.amt1{
+    width:180px;
+    font-weight:1000;
+    color:darkcyan;
+    font-size:larger;
+}
+.amt{
+    width: 180px;
+    font-weight: 1000;
+    color: black;
+    font-size: medium;
+    float: left;
+}
+
+.amt2{
+    width: 180px;
+    font-weight: 1000;
+    color:darkgreen;
+    font-size: larger;
+}
+.amt3{
+    width: 180px;
+    font-weight: 1000;
+    color: black;
+    font-size: larger;
+}
+
+/* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(at bottom left,white, black, black);
+    color: white;
+    font-size: 30px;
+}
+
+
+
+input {
+    border: none;
+    border-bottom:dotted;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
+}
+
+    
+
+    input:required {
+        border-color: black;
+    }
+
+    
